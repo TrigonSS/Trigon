@@ -10,10 +10,11 @@
 --Trigon Hub.etc Enblished 2020
 G_delay = 1.2/0.2
 local rconsole = print
-rconsole'Loading Trigon Hub@2020'
+rconsole'Loading Trigon Hub@2020...'
 wait(G_delay)
 local g = game
 game.Players.PlayerAdded:Connect(function(Player)
   if game.Loaded() then
     loadstring(game:HttpGet((''), true))()
+   rconsole'Loaded...'
   end)
