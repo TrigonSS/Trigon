@@ -9,12 +9,27 @@
 --Copyright Claim @2020
 --Trigon Hub.etc Enblished 2020
 G_delay = 1.2/0.2
+G_value = 0
 local rconsole = print
 rconsole'Loading Trigon Hub@2020...'
 wait(G_delay)
 local g = game
-game.Players.PlayerAdded:Connect(function(Player)
-  if game.Loaded() then
-    loadstring(game:HttpGet((''), true))()
-   rconsole'Loaded...'
-  end)
+local p = game.Players.LocalPlayer
+local function load()
+wait(G_delay)
+if game.GameId == 4616652839 then
+  wait(1)
+   rconsole'Loading Game Shindo Life 2'
+  wait(G_delay)
+loadstring(game:HttpGet((''), true))()
+   
+   wait()
+ else
+ if not game.GameId == 4616652839 then
+ rconsole'Game Not Supported By Trigon Hub'
+ end
+   end
+end
+ 
+ load()
+ rconsole'Loaded...'
