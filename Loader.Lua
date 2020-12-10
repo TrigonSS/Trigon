@@ -15,7 +15,7 @@ rconsole'Loading Trigon Hub@2020...'
 wait(G_delay)
 local g = game
 local p = game.Players.LocalPlayer
-local function load()
+
 wait(G_delay)
 if game.GameId == 4616652839 then
   wait(1)
@@ -794,7 +794,6 @@ coroutine.wrap(OQKQ_fake_script)()
  rconsole'Game Not Supported By Trigon Hub'
  end
    end
-end
+
  
- load()
  rconsole'Loaded...'
