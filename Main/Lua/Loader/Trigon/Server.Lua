@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local Trigon = Instance.new("ScreenGui")
 local TrigonHub = Instance.new("ImageButton")
@@ -37,7 +33,7 @@ local TextLabel_8 = Instance.new("TextLabel")
 --Properties:
 
 Trigon.Name = "Trigon"
-Trigon.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Trigon.Parent = game.CoreGui
 Trigon.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 TrigonHub.Name = "TrigonHub"
