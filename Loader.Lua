@@ -21,7 +21,7 @@ if game.GameId == 4616652839 then
   wait(1)
    rconsole'Loading Game Shindo Life 2'
   wait(G_delay)
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrigonSS/Trigon/main/Main/Lua/Loader/Trigon/Server.Lua'), true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrigonSS/Trigon/main/Loader2.Lua'), true))()
    
    wait()
  else
